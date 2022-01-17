@@ -35,7 +35,7 @@ The answer is something like `<some path>/texmf` (or `<path>\texmf` on windows)
 
 2. locate the folder containing `MathDataBase`.
 
-3. Issue in the terminal
+1. Issue in the terminal
 
 * Windows `mklink /d "<MathDataBase path>" "<some path>/texmf/tex/latex/MDB"`
 * Other `ln -s "<some path>/texmf/tex/latex/MDB" "<MathDataBase path>"`
